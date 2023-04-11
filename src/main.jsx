@@ -12,6 +12,7 @@ import Applied from './Component/applied/Applied';
 import Blog from './Component/Main/blog/Blog';
 import Viewdetails from './Component/fraturefristreview/viewdetails/Viewdetails';
 import CardLoader from './Component/loader/CardLoader';
+import Four from './Component/four o four/Four ';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -39,7 +40,11 @@ const router = createBrowserRouter([
       },
       {
         path:'blog',
-        element:<Blog></Blog>}
+        element:<Blog></Blog>},
+        {
+          path:'*',
+          element:<Four></Four>
+        }
     ]
     
   },
