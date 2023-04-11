@@ -1,39 +1,43 @@
 import React from 'react';
-import { AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
+import { Radar, RadarChart, PolarGrid, PolarAngleAxis, PolarRadiusAxis, ResponsiveContainer } from 'recharts';
 
 const data = [
   {
-    name: 'Assignment 4',
-    mark: 60,
+    subject: 'Assignment4',
+    A: 60,
+    fullMark: 60,
   },
   {
-    name: 'Assignment 5',
-    mark: 55,
+    subject: 'Assignment5',
+    A: 55,
+    fullMark: 60,
   },
   {
-    name: 'Assignment 6',
-    mark: 54,
+    subject: 'Assignment6',
+    A: 54,
+    fullMark: 60,
   },
   {
-    name: "Assignment 7",
-    mark: 59
+    subject: 'Assignment7',
+    A: 59,
+    fullMark: 60,
   },
   {
-    name: 'Assignment 8',
-    mark: 56,
-  }
+    subject: 'Assignment8',
+    A: 56,
+    fullMark: 60,
+  },
 ];
 
 const Statics = () => {
   return (
-    <ResponsiveContainer width="100%" height={300}>
-      <AreaChart data={data} margin={{ top: 10, right: 30, left: 0, bottom: 0 }}>
-        <CartesianGrid strokeDasharray="3 3" />
-        <XAxis dataKey="name" />
-        <YAxis />
-        <Tooltip />
-        <Area type="monotone" dataKey="mark" stroke="#8884d8" fill="#8884d8" />
-      </AreaChart>
+    <ResponsiveContainer width="100%" height={400}>
+      <RadarChart data={data}>
+        <PolarGrid />
+        <PolarAngleAxis dataKey="subject" />
+        <PolarRadiusAxis />
+        <Radar name="Marks" dataKey="A" stroke="#8884d8" fill="#8884d8" fillOpacity={0.6} />
+      </RadarChart>
     </ResponsiveContainer>
   );
 };
