@@ -11,6 +11,11 @@ const Blog = () => {
                                         It helps avoid "prop drilling," but should be used judiciously to 
                                         avoid making code harder to understand and maintain.</p>
             </div>
+            <div className='shadow-md mt-10'><h1 className='font-extrabold'>What is custom hook in react?????</h1>
+                 <p><span className='font-bold'>Ans:</span>A custom hook in React is a function that uses built-in hooks to encapsulate and reuse <br />
+                                                           stateful logic across multiple components. It allows you to abstract complex logic into <br />
+                                                            reusable functions that can be shared throughout your application.</p>
+            </div>
         </div>
     );
 };
