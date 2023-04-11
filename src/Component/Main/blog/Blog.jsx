@@ -23,6 +23,13 @@ const Blog = () => {
                                                            The .current property of the ref object can hold a value across renders and can be used to access <br />
                                                             or modify the referenced value.</p>
             </div>
+
+            <div className='shadow-md mt-10'><h1 className='font-extrabold'>what is UseMemo in react???????</h1>
+                 <p><span className='font-bold'>Ans:</span>useRef is a built-in hook in React that returns a mutable ref object. Its primary use case is <br /> 
+                                                           to access DOM nodes or other mutable values that are managed outside the component's state. <br />
+                                                           The .current property of the ref object can hold a value across renders and can be used to access <br />
+                                                            or modify the referenced value.</p>
+            </div>
         </div>
     );
 };
