@@ -1,0 +1,57 @@
+[
+    {
+        "img":"https://thumbs.dreamstime.com/z/google-icon-logo-simple-vector-filled-flat-google-icon-logo-solid-pictogram-isolated-white-background-159029191.jpg",
+        "name":"Softwere Engineer",
+        "id":"Google LLc",
+        "location":"Dhaka,Bangladesh",
+        "salary":"100k-150k",
+        "email": "john.doe@example.com",
+        "phone": "+1 (555) 555-1212"
+    },
+    {
+        "img":"https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2022%2F08%2Fmost-used-netflix-icon-boss-baby-info-000.jpg?w=960&cbr=1&q=90&fit=max",
+        "name":"Senior Product Designer",
+        "id":"Netflix",
+        "location":"Dhaka,Bangladesh",
+        "salary":"120k-130k",
+        "email": "sarah.smith@example.com",
+        "phone": "+44 1234 567890"
+    },
+    {
+        "img":"https://as1.ftcdn.net/v2/jpg/04/46/50/84/1000_F_446508449_Ai6JxlPLs2dbCMxYCQqjt9lVMV7qs5rT.jpg",
+        "name":"Technical Dtabase Enginner",
+        "id":"Tesla",
+        "location":"Dhaka,Bangladesh",
+        "salary":"100k-110k",
+        "email": "david.wilson@example.com",
+        "phone": "+61 2 1234 5678"
+    },
+    {
+        "img":"https://raw.githubusercontent.com/SAP-Custom-Widget/ChatGptWidget/main/icon.png",
+        "name":"Python Devoloper",
+        "id":"chatgpt",
+        "location":"Mymensingh,Bangladesh",
+        "salary":"80k-150k",
+        "email": "emma.thompson@example.com",
+        "phone": "+33 1 23 45 67 89"
+    },
+    {
+        "img":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Netlify_logo.svg/2560px-Netlify_logo.svg.png",
+        "name":"Database Creator",
+        "id":"Netlify",
+        "location":"sajek,Bangladesh",
+        "salary":"100k-150k",
+        "email": "mario.rossi@example.com",
+      "phone": "+39 06 12345678"
+    },
+    {
+        "img":"https://i2-prod.dailystar.co.uk/incoming/article29515978.ece/ALTERNATES/s615b/0_In-this-photo-illustration-Google-Bard-AI-logo-seen-on-a.jpg",
+        "name":"Rust Problem Solver",
+        "id":"Bard AI",
+        "location":"Haluaghat,Bangladesh",
+        "salary":"100k-150k",
+        "email": "jane.doe@example.com",
+      "phone": "+81 3-1234-5678"
+    }
+
+]

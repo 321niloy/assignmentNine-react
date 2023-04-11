@@ -1,0 +1,23 @@
+[
+    {
+        "img":"https://www.pngitem.com/pimgs/m/420-4204652_oic-provincial-statistics-officer-psa-maguindanao-user-icon.png",
+        "id":"Account and Finance",
+        "availabel":"300 jobs availabel"
+    },
+    {
+        "img":"https://cdn-icons-png.flaticon.com/512/1308/1308491.png",
+        "id":"Creative Design",
+        "availabel":"100+ jobs availabel"
+    },
+    {
+        "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgUPXulke6Qk11uSGA_7teHikixq_ukBsTUbzRGcsl06lZB3iOdbq8xP73NoKT3P2N8k8&usqp=CAU",
+        "id":"Sales Marketing",
+        "availabel":"150 jobs availabel"
+    },
+    {
+        "img":"https://png.pngtree.com/png-clipart/20200225/original/pngtree-businessman-officer-icon-avatar-vector-download-png-image_5257567.jpg",
+        "id":"Enginnering Jobs",
+        "availabel":"224 jobs availabel"
+    }
+
+]
