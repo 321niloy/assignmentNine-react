@@ -26,7 +26,7 @@ const router = createBrowserRouter([
       {
       path:"viewdetails/:id",
       element:<Viewdetails></Viewdetails>,
-      loader:({params}) => fetch("featured.json")
+      loader:() => fetch("featured.json")
 
       },
       {

@@ -11,19 +11,17 @@ const Viewdetails = () => {
 
     const [feature,setfeature] = useState([])
     const [viewdetails,setviewdetails]=useState({})
-   
+    const data = useLoaderData()
 
         useEffect(()=>{
-        fetch('/public/featured.json')
-        .then(res => res.json())
-        .then(data => {
+        if (data && id){
           setfeature(data);
            
         const remain = data.find(p => p.id === id);
-        setviewdetails(remain)     
-        });
+        setviewdetails(remain)  
+        }
     }
-        ,[id])
+        ,[id,data])
     return (
        
         <div className=' lg:grid lg:grid-cols-2'>
