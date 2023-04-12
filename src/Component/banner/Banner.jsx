@@ -1,6 +1,6 @@
 import React from 'react';
 import './Banner.css'
-
+import Bannerimage from "../../image/main.jpg"
 const Banner = () => {
     return (
         <div className='lg:flex  bg-sky-500/[.06]'>
@@ -15,7 +15,7 @@ const Banner = () => {
                    <button className='bg-gradient-to-r from-cyan-500 to-blue-500 p-6 text-white rounded-lg mt-3'>Get Started</button>
             </div>
                 <div>
-                   <img className='image' src="/public/image/main.jpg" alt="" />
+                   <img className='image' src={Bannerimage} alt="" />
                 </div>
         </div>
     );
