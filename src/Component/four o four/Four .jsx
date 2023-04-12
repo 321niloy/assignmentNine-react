@@ -1,9 +1,9 @@
 import React from 'react';
-
+import Four from "../../image/four.jpg"
 const Four  = () => {
     return (
         <div>
-            <img className='w-full h-fit' src="/public/image/four.jpg" alt="" />
+            <img className='w-full h-fit' src={Four} alt="" />
         </div>
     );
 };
